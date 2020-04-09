@@ -24,23 +24,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  #
-  # data.each do |key1, value1|   # looping main hash (key - value[of hashes])
-  #   value1.each do |key2, value2|   # looping each key-value in value[hash] of the main hash
-  #     value2.each do |name|   # looping each array[value] of names of each key
-  #       if pigeon_list.has_key?(name)   #does the newList have a key of name?
-  #         if pigeon_list[name].has_key?(key1)   #yes that name is there, does the name have key1 as a key under name?
-  #           pigeon_list[name][key1] << key2.to_s    #yes that key is there, now push on key2 as a string to key1 under name
-  #         else
-  #           pigeon_list[name][key1] = key2.to_s  #no that key is not there, so make name-key1 equal key2
-  #         end
-  #       else
-  #         pigeon_list[name] = {key1 => key2.to_s } #no that name is not there, add the name to the newList and make it a has of key1 holding key2
-  #       end
-  #
-  #     end
-  #   end
-  # end
 
 return pigeon_list
 end
